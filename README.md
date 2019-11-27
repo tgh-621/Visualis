@@ -1,7 +1,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-##Introduction
+## Introduction
 
 Visualis is a BI tool for data visualization. It is developed based on the open source project [Davinci](https://github.com/edp963/davinci) contributed by CreditEase.
 
