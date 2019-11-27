@@ -1,30 +1,26 @@
-# Davinci - DVaaS (Data Visualization as a Service) Solution
-[![](https://camo.githubusercontent.com/8cb994f6c4a156c623fe057fccd7fb7d7d2e8c9b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d3445423142412e737667)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![](https://camo.githubusercontent.com/0a56ffb0993fb7eee49b4dcacbd16f6cd6c7a36c/68747470733a2f2f746f6b65692e72732f62312f6769746875622f6564703936332f646176696e63693f63617465676f72793d6c696e6573)](https://github.com/edp963/davinci)
-[![](https://camo.githubusercontent.com/95eb9dee35be192f77c53f880fa607344dc0beb5/68747470733a2f2f7472617669732d63692e6f72672f6564703936332f646176696e63692e7376673f6272616e63683d6d6173746572)](https://travis-ci.org/edp963/davinci)
-[![](https://camo.githubusercontent.com/6d479c039e85e35b14a751d8103a5dbd8b72d140/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6564703936332f646176696e63692e737667)](https://github.com/edp963/davinci/releases)
 
-[![Stargazers over time](https://starchart.cc/edp963/davinci.svg)](https://starchart.cc/edp963/davinci)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-## Document
-[![](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87%E7%89%88-blue.svg)](https://github.com/edp963/davinci/blob/master/README-CH.md)
-[![](https://img.shields.io/badge/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C-%E4%B8%AD%E6%96%87%E7%89%88-blue.svg)](https://edp963.github.io/davinci/)
+##Introduction
 
-## Introduction
-Davinci is oriented towards product managers, business people, data engineers, data analysts, data scientists, etc. It aims to provide a one-stop data visualization solution, which could be both independently used as public cloud/private cloud and integrated into third-party systems as plugin. A simple configuration on Davinci UI can meet multiple visualization requirements. It also supports other visualization features like advanced interaction, industry analysis, pattern searching, social intelligence, etc.
+Visualis is a BI tool for data visualization. It is developed based on the open source project [Davinci](https://github.com/edp963/davinci) contributed by CreditEase.
 
-## Design Philosophy
-* Focus on two key concepts, data view (View in Davinci) and visual components (Widget in Davinci) 
+Visualis has been integrated into the data application development portal [DataSphere Studio](https://github.com/WeBankFinTech/DataSphereStudio).
 
-  * Structural data is presented in Davinci View, from which all the logic, authorization and service are derived.
-  * Visual data is presented in Davinci Widget, from which all the display, interaction and guidance are derived.
-  * View and Widget supplement each other, providing users consistent experience and perception.
-* Strengthen integration and customization capability as well as sharing and intelligence capability
-  * Integration and customization capability means Davinci could seamlessly integrate into third-party systems and be customized,  combining with third-party systems.
-  * Sharing and intelligence capability means users could share their dashboards with others, which stimulates them to improve the visualization ability both in aesthetic perception and technical skills.
-  * In the field of data visualization, Davinci attaches great importance to basic interaction ability and various chart options; meanwhile, it lays more stress on integration and customization capability as well as sharing and intelligence capability.
+Visualis provides data development/exploration functionalities including drag & drop style report definition, diagram correlation analysis, data drilling, global filtering, multi-dimensional analysis and real-time query, with the enhancement of report watermark and data quality management.
 
 ## Features
+
+Based on Davinci project, Visualis achieves below features with DataSphere Studio:
+* Report water mark.
+* Data quality inspection.
+* Report display optimization.
+* Linkis adaption for big-data queries.
+* One-click visualization from Scriptis
+* External application parameters support.
+* Dashboard/Display as an appjoint of DataSphere Studio workflow
+
+Visualis also supports most of the original features of Davinci.
 * Data Source Support
   * Files in CSV format
   * JDBC data source
@@ -48,19 +44,40 @@ Davinci is oriented towards product managers, business people, data engineers, d
   * Upload visual components in CSV format
   * Share visual components in a common/authorized way
   * Share dashboard in a common/authorized way
-* Security Permission Support
-  * Row permission and column permission
-  * Integration of LDAP sign-in
-  
-## Latest Release
-Please download the latest [RELEASE](https://github.com/edp963/davinci/releases/download/v0.3.0-beta.8/davinci-assembly_3.0.1-0.3.1-SNAPSHOT-dist-beta.8.zip)
 
-## Get Help
-The fastest way to get response from our developers is to send email to our mail list edp_support@groups.163.com, and welcome to join our WeChat group for online discussion.
 
-[![](https://github.com/edp963/edp-resource/raw/master/WeChat.jpg)](https://github.com/edp963/edp-resource/raw/master/WeChat.jpg)
+## DataSphere Studio Integration
+Visualis seamlessly integrates with the data develoment, workflow scheduling and data quality management modules of DataSphere Studio, achieving a smooth and consistent user experience across the whole data application development lifecycle.
+
+For more detail, please visit [DataSphere Studio documentations]().
+
+## Demo environment
+
+ &nbsp; &nbsp;&nbsp; &nbsp;[click me to](https://sandbox.webank.com/wds/dss/#) DSS Demo environment
+
+ &nbsp; &nbsp;&nbsp; &nbsp;User/Password: bdp/Abcd1234
+ 
+## Quick start
+
+Click to [Quick start]()
+
+## Architecture
+
+![Viusalis Architecture](images/en_US/readme/architecture.png)
+
+## Documents
+
+[Deploy documentation]()
+
+[Quick integration with DSS and Linkis]()
+
+[The differences between Visualis and Davinci]()
+
+## Communication
+
+![communication](images/en_US/readme/communication.png)
 
 ## License
-Please refer to [LICENSE](https://github.com/edp963/davinci/blob/master/LICENSE) file.
-  
+
+DSS is under the Apache 2.0 license. See the [License](LICENSE) file for details.
 
